@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea DOM</title>
+    <script src="./JS/javadom.js" async defer></script>
+    <link rel="stylesheet" href="./STYLES/styles.css">
+</head>
+<body>
+
+    <div class="main container">
+        <h1 id="titile1">Tarea de Manipulación del DOM</h1>
+        <h2 class="subtitulo">Eventos</h2>
+        <h3 class="subtitulo">DOM + JavaScript</h3>
+        <!--Se crea el boton para ingresar info-->
+        <label for="name">Nombre de usuario</label>
+        <input id="name" type="text" name="username" value="">
+        <button id="ProfileBtn">Actualizar nombre</button>
+        <br>
+        <!--Se intenta crear un segundo boton-->
+        <label for="age">Edad de usuario</label>
+        <input id="age" type="text" name="userage" value="">
+        <button id="ProfileAge">Actualizar edad</button>
+        <br>
+        <!--Se intenta crear un segundo boton-->
+        <label for="mail">Mail de usuario</label>
+        <input id="mail" type="text" name="usermail" value="">
+        <button id="ProfileMail">Actualizar Mail</button>
+    </div>
+
+    
+    <div class='profile container'>
+        <h2 id='username'></h2>
+        <h3 id='userage'></h3>
+        <p id='usermail'></p>
+        <ul id='fav-Sports'></ul>
+    </div>
+
+    <div id='profiles' class='profiles container'></div>
+
+</body>
+</html>
